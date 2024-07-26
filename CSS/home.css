@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark_red:#960B46;
+    --red:#DC0052;
+    --white:#D9D9D9;
+    --white_text:#FFFFFF;
+    --black_text:#000000;
+    --dark_blue:#0A0C18;
+
+}
+
+html{
+    font-size: clamp(10px, 1.5vw, 18px);
+}
+/* 1rem == 16px */
+
+@font-face {
+    font-family: "Rajdhani-Bold";
+    src: url("../Font/Rajdhani-Bold.ttf");
+}
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url("../Font/Rajdhani-Regular.ttf");
+}
+
+html::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    font-family: 'Rajdhani-Bold';
+    min-height: 100vh;
+    color: var(--white_text);
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('../Assets/Home_Page/Home_asphalt.png');
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white_text);
+    z-index: 1;
+}
+
+.background-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100vw;
+    z-index: -1;
+}
+
+.scroll-icon{
+    position: absolute;
+    bottom: 1.25rem; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem; 
+}
+
+
+.information{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, transparent, var(--black_text)), url('../Assets/Home_Page/Car_bg1.jpg');
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    text-decoration-thickness: 10%;
+    
+}
+
+.information p{
+    display: flex;
+    font-family: 'Rajdhani-Regular';
+    max-width: 40ch;
+}
+
+.Home-Footer{
+    background-image: linear-gradient(to bottom, transparent, var(--dark_blue)), url('../Assets/Home_Page/Car_bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    min-height: 50vh;
+    max-height: 50%;
+    flex-direction: column;
+}

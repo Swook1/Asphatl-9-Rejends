@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark_red: #960B46;
+    --red: #DC0052;
+    --white: #D9D9D9;
+    --white_text: #FFFFFF;
+    --black_text: #000000;
+    --dark_blue: #0A0C18;
+}
+
+html {
+    font-size: clamp(10px, 1.5vw, 18px);
+}
+
+@font-face {
+    font-family: "Rajdhani-Bold";
+    src: url("../Font/Rajdhani-Bold.ttf");
+}
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url("../Font/Rajdhani-Regular.ttf");
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    font-family: 'Rajdhani-Bold';
+    min-height: 100vh;
+    color: var(--white_text);
+    box-sizing: border-box;
+}
+
+.blog-section {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Assets/News_Page/Net_Background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 200vh; */
+    padding: 8rem 1rem;
+}
+
+.blog-section .section-content{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .blog-section .section-content .title{
+    width: 60%;
+    text-align: center;
+} */
+
+.blog-section h1{
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    align-items: center;
+    
+    
+}
+
+.blog-section #color-diff{
+    color: var(--red);
+}
+
+.blog-section .section-content .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 50px auto;
+}
+
+.blog-section .section-content .cards .card{
+    width: 100%;
+    background-color: var(--white);
+    position: relative;
+    flex-direction: column;
+}
+
+.blog-section .section-content .cards .card img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.blog-section .section-content .cards .card .article{
+    padding: 15px 20px;
+}
+
+.blog-section .section-content .cards .card .article h2{
+    font-size: 2rem;
+    color: var(--black_text);
+}
+
+.blog-section .section-content .cards .card .article p{
+    /* font-size: 14px; */
+    padding-top: 10px;
+    color: var(--black_text);
+}
+
+.blog-section .section-content .cards .card a{
+    font-family: 'Rajdhani-Bold';
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ee9f40;
+    border-radius: 0.3rem;
+    padding: 0.25rem;
+    /* margin-left: 20px; */
+    color: var(--black_text); /*Btn text color*/
+    /* margin-bottom: 20px; */
+    font-size: 1rem;
+    
+}
+
+.blog-section .section-content .cards .card a:hover{
+    text-decoration: solid;
+    color: var(--white_text);
+}
+
+.blog-section .section-content .cards .card .date{
+    font-family: 'Rajdhani-Regular';
+    font-size: 18px;
+    padding-top: 10px;
+    color: var(--black_text);
+}
+
+.blog-section .section-content .cards .card .time{
+    font-family: 'Rajdhani-Regular';
+    font-size: 18px;
+    padding-top: 10px;
+    color: var(--black_text);
+}
+
+@media screen and (max-width: 992px){
+    .blog-section .section-content .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px){
+    .blog-section .section-content .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+
