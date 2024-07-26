@@ -20,11 +20,11 @@ html{
 
 @font-face {
     font-family: "Rajdhani-Bold";
-    src: url("/Swook1/Font/Rajdhani-Bold.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Bold.ttf");
 }
 @font-face {
     font-family: "Rajdhani-Regular";
-    src: url("/Swook1/Font/Rajdhani-Regular.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Regular.ttf");
 }
 
 html::-webkit-scrollbar{

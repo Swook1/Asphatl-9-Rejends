@@ -21,11 +21,11 @@ html{
 
 @font-face {
     font-family: "Rajdhani-Bold";
-    src: url("/Swook1/Font/Rajdhani-Bold.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Bold.ttf");
 }
 @font-face {
     font-family: "Rajdhani-Regular";
-    src: url("/Swook1/Font/Rajdhani-Regular.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Regular.ttf");
 }
 
 html::-webkit-scrollbar{
@@ -40,7 +40,7 @@ body{
 }
 
 .hero{
-    background-image: url('/Swook1/Assets/Home_Page/Home_asphalt.png');
+    background-image: url('/Asphatl-9-Rejends/Assets/Home_Page/Home_asphalt.png');
     position: relative;
     overflow: hidden;
     min-height: 100vh;
@@ -81,7 +81,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-image: linear-gradient(to left, transparent, var(--black_text)), url('/Swook1/Assets/Home_Page/Car_bg1.jpg');
+    background-image: linear-gradient(to left, transparent, var(--black_text)), url('/Asphatl-9-Rejends/Assets/Home_Page/Car_bg1.jpg');
     padding-left: 9.5rem;
     padding-right: 9.5rem;
     padding-top: 10rem;
@@ -105,7 +105,7 @@ h1{
 }
 
 .Home-Footer{
-    background-image: linear-gradient(to bottom, transparent, var(--dark_blue)), url('/Swook1/Assets/Home_Page/Car_bg2.jpg');
+    background-image: linear-gradient(to bottom, transparent, var(--dark_blue)), url('/Asphatl-9-Rejends/Assets/Home_Page/Car_bg2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

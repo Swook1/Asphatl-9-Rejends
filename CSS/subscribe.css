@@ -19,11 +19,11 @@ html {
 
 @font-face {
     font-family: "Rajdhani-Bold";
-    src: url("/Swook1/Font/Rajdhani-Bold.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Bold.ttf");
 }
 @font-face {
     font-family: "Rajdhani-Regular";
-    src: url("/Swook1/Font/Rajdhani-Regular.ttf");
+    src: url("/Asphatl-9-Rejends/Font/Rajdhani-Regular.ttf");
 }
 
 html::-webkit-scrollbar {
@@ -38,7 +38,7 @@ body {
 }
 
 .subscribe {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Swook1/Assets/Subscription_Page/Car_bg_2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Asphatl-9-Rejends/Assets/Subscription_Page/Car_bg_2.jpg');
     height: 100vh;
     width: 100%;
     display: flex;
