@@ -19,11 +19,11 @@ html {
 
 @font-face {
     font-family: "Rajdhani-Bold";
-    src: url("/Asphatl-Web/Font/Rajdhani-Bold.ttf");
+    src: url("/Swook1/Font/Rajdhani-Bold.ttf");
 }
 @font-face {
     font-family: "Rajdhani-Regular";
-    src: url("/Asphatl-Web/Font/Rajdhani-Regular.ttf");
+    src: url("/Swook1/Font/Rajdhani-Regular.ttf");
 }
 
 .first_bg{
@@ -35,7 +35,7 @@ html {
     background-repeat: no-repeat;
     min-height: 200vh;
     padding: 10rem 9.5rem;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Asphatl-Web/Assets/Products_Page/Lots_car.png');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Swook1/Assets/Products_Page/Lots_car.png');
     
 }
 
@@ -92,7 +92,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 200vh;
-    background-image: url('/Asphatl-Web/Assets/Products_Page/Lots_car.png');
+    background-image: url('/Swook1/Assets/Products_Page/Lots_car.png');
 }
 
 .slide-container {
